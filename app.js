@@ -13,6 +13,16 @@ const books = [
     description: "アウグスティヌスからヘーゲル、マルクス、E.H.カー、物語論を経て現在に至る歴史哲学の変遷を11章で読む。",
     color: "#7A2E3A",
     colorDark: "#D07A88"
+  },
+  {
+    id: "gender-history",
+    title: "ジェンダー史の変遷",
+    subtitle: "女性史からジェンダー史へ",
+    url: "https://hinoyasai1984-afk.github.io/gender-history-book/",
+    category: "思想史",
+    description: "ボーヴォワールから女性史の確立、ジョーン・スコットの転回、クィア史、インターセクショナリティを経て現在に至るジェンダー史の変遷を11章で読む。",
+    color: "#7A3B66",
+    colorDark: "#D98CC0"
   }
 ];
 
