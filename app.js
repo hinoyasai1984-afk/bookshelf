@@ -107,5 +107,31 @@ document.getElementById("theme-toggle").addEventListener("click", () => {
   applyTheme(next);
 });
 
+function copyPageLink(btn) {
+  const url = window.location.href;
+  const onDone = () => {
+    const original = btn.textContent;
+    btn.textContent = "✓";
+    setTimeout(() => { btn.textContent = original; }, 1600);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(onDone).catch(() => fallbackCopy(url, onDone));
+  } else {
+    fallbackCopy(url, onDone);
+  }
+}
+function fallbackCopy(text, onDone) {
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand("copy"); } catch (e) { /* clipboard unavailable */ }
+  document.body.removeChild(ta);
+  onDone();
+}
+document.getElementById("share-link").addEventListener("click", (e) => copyPageLink(e.currentTarget));
+
 applyTheme(localStorage.getItem(THEME_KEY) || "");
 render();
