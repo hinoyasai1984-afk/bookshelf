@@ -5,6 +5,16 @@
  */
 const books = [
   {
+    id: "claude-cowork",
+    title: "Claude Cowork入門",
+    subtitle: "個人と組織のためのAIコワーカー",
+    url: "https://hinoyasai1984-afk.github.io/claude-cowork-book/",
+    category: "技術書",
+    description: "Claude Coworkの位置づけ、Claude Codeとの関係、ファイル操作・ツール連携・スケジュール実行タスク・業務システム連携から、個人と組織それぞれの活用の勘所までを11章で読む。",
+    color: "#9C5B24",
+    colorDark: "#D99A5C"
+  },
+  {
     id: "rekishi-tetsugaku",
     title: "歴史哲学の系譜",
     subtitle: "アウグスティヌスから現在まで",
