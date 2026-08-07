@@ -23,6 +23,16 @@ const books = [
     description: "ボーヴォワールから女性史の確立、ジョーン・スコットの転回、クィア史、インターセクショナリティを経て現在に至るジェンダー史の変遷を11章で読む。",
     color: "#7A3B66",
     colorDark: "#D98CC0"
+  },
+  {
+    id: "prompt-engineering",
+    title: "プロンプトエンジニアリング基礎",
+    subtitle: "伝わる指示の設計技法",
+    url: "https://hinoyasai1984-afk.github.io/prompt-engineering-book/",
+    category: "技術書",
+    description: "明確さと具体性、Few-shot、Chain-of-Thought、構造化出力からハルシネーション対策・プロンプトインジェクション対策までを11章で読む。",
+    color: "#34507D",
+    colorDark: "#7FA0D6"
   }
 ];
 
