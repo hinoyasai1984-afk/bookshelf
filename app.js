@@ -33,6 +33,26 @@ const books = [
     description: "明確さと具体性、Few-shot、Chain-of-Thought、構造化出力からハルシネーション対策・プロンプトインジェクション対策までを11章で読む。",
     color: "#34507D",
     colorDark: "#7FA0D6"
+  },
+  {
+    id: "context-engineering",
+    title: "コンテキストエンジニアリング基礎",
+    subtitle: "モデルに何を見せるかの設計技法",
+    url: "https://hinoyasai1984-afk.github.io/context-engineering-book/",
+    category: "技術書",
+    description: "コンテキストウィンドウという有限資源から、プロンプトキャッシュ、RAG、コンパクション、メモリ、サブエージェントによる分離までを11章で読む。",
+    color: "#1F6E64",
+    colorDark: "#6ABFAF"
+  },
+  {
+    id: "loop-engineering",
+    title: "ループエンジニアリング基礎",
+    subtitle: "考えて・動いて・確かめる仕組みの設計技法",
+    url: "https://hinoyasai1984-afk.github.io/loop-engineering-book/",
+    category: "技術書",
+    description: "エージェントループの基本構造、停止理由の読み方、並列ツール呼び出し、Human-in-the-loop、タスクバジェット、マルチエージェントまでを11章で読む。",
+    color: "#3A5A82",
+    colorDark: "#85A9D4"
   }
 ];
 
