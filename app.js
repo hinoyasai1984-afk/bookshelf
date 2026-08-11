@@ -63,6 +63,16 @@ const books = [
     description: "エージェントループの基本構造、停止理由の読み方、並列ツール呼び出し、Human-in-the-loop、タスクバジェット、マルチエージェントまでを11章で読む。",
     color: "#3A5A82",
     colorDark: "#85A9D4"
+  },
+  {
+    id: "optimization",
+    title: "制約付き数理最適化基礎",
+    subtitle: "MILPとソルバー、LLM活用の技法",
+    url: "https://hinoyasai1984-afk.github.io/optimization-book/",
+    category: "技術書",
+    description: "決定変数・目的関数・制約条件の基礎から、MILP定式化の技法、分枝限定法とソルバーの選び方、LLMによる定式化調整支援、設備更新・シフト・配送計画のケーススタディまでを11章で読む。",
+    color: "#B65C21",
+    colorDark: "#E08A45"
   }
 ];
 
