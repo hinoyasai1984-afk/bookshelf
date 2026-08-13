@@ -73,6 +73,16 @@ const books = [
     description: "決定変数・目的関数・制約条件の基礎から、MILP定式化の技法、分枝限定法の仕組み、商用・オープンソースソルバーの技術比較、LLMによる定式化調整支援、設備更新・シフト・配送計画のケーススタディまでを12章で読む。",
     color: "#B65C21",
     colorDark: "#E08A45"
+  },
+  {
+    id: "cplex-opl",
+    title: "CPLEX Optimization Studio 基礎と応用",
+    subtitle: "OPL・oplrun・docplexを実コマンドで学ぶ",
+    url: "https://hinoyasai1984-afk.github.io/cplex-opl-book/",
+    category: "技術書",
+    description: "IBM ILOG CPLEX Optimization Studioの製品利用のエントリーポイント。インストール・OPL(.mod/.dat)・IDE実行・コマンドライン(oplrun)・CPLEX Interactive Optimizer・Python API(docplex)・CP Optimizer入門・infeasibleの診断とパラメータチューニングの基礎までを、実コマンドとアウトプット例つきで13章にまとめる。",
+    color: "#2B6E4F",
+    colorDark: "#74CC9C"
   }
 ];
 
