@@ -5,6 +5,16 @@
  */
 const books = [
   {
+    id: "rcm-primer",
+    title: "信頼性中心保全(RCM)入門",
+    subtitle: "故障物理と根本原因から保全を考える",
+    url: "https://hinoyasai1984-afk.github.io/rcm-primer-book/",
+    category: "技術書",
+    description: "RCM誕生の経緯(Nowlan & Heap 1978年報告書)、保全戦略の全体像とP-Fカーブ、SAE JA1011の7つの質問、FMEA、故障物理(バスタブカーブ・ワイブル分布)、隠れた故障のロジック、根本原因分析(5 Whys・特性要因図・FTA)、小規模現場での実践までを10章で読む。",
+    color: "#A8422B",
+    colorDark: "#E08267"
+  },
+  {
     id: "claude-cowork",
     title: "Claude Cowork入門",
     subtitle: "個人と組織のためのAIコワーカー",
